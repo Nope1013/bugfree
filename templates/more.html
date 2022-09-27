@@ -1,0 +1,23 @@
+<!-- Extending the predefined project layout -->
+{% extends "layouts/base.html" %}
+
+<!- This variable sets name of browser tab  -->
+{% set project = "Stubby" %}
+
+<!- This is a replacement block for Body in base.html -->
+{% block body %}
+    <!- Try building a new body here, bootstrap is a wise choice ->
+    <div class="px-5 py-5 mx-auto">
+        <h1 class="text-primary"><strong>Noor in Pictures</strong></h1>
+        <h2 class="text-secondary"><strong>Artwork</strong></h2>
+        <img src="Greenlady.png" alt="Green Lady">
+        <img src="Dobie.png" alt="Dobie">
+        <img src="Assam.jpeg" alt="Assam">
+        <img src="Kahlua.jpeg" alt="Kahlua">
+        <img src="EddieMunson.jpeg" alt="Eddie Munson">
+    </div>
+{% endblock %}
+
+<!- This is turning off birds background from base.html -->
+{% block background %}
+{% endblock %}
