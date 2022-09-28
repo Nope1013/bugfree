@@ -64,8 +64,8 @@
 {% endblock %}
 
 {% block background %}
-    <script src="three.r119.min.js"></script>
-    <script src="vanta.fog.min.js"></script>
+    <script src="{{ url_for('static', filename='js/three.r119.min.js') }}"></script>
+    <script src="{{ url_for('static', filename='js/vanta.fog.min.js') }}"></script>
     <script>
         VANTA.FOG({
             el: "body",

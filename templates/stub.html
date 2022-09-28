@@ -10,19 +10,19 @@
     <div class="px-5 py-5 mx-auto">
         <h1 class="text-primary"><strong>Noor in Pictures</strong></h1>
         <h2 class="text-secondary"><strong>Artwork</strong></h2>
-            <img src= "Greenlady.png" alt="Green Lady">
-            <img src="Dobie.png" alt="Dobie">
-            <img src="Assam.jpeg" alt="Assam">
-            <img src="Kahlua.jpeg" alt="Kahlua">
-            <img src="EddieMunson.jpeg" alt="Eddie Munson">
+            <img src="{{ url_for('static', filename='assets/Greenlady.png') }}" alt="Green Lady">
+            <img src="{{ url_for('static', filename='assets/Dobie.png') }}" alt="Dobie">
+            <img src="{{ url_for('static', filename='assets/Assam.jpeg') }}" alt="Assam">
+            <img src="{{ url_for('static', filename='assets/Kahlua.jpeg') }}" alt="Kahlua">
+            <img src="{{ url_for('static', filename='assets/EddieMunson.jpeg') }}" alt="Eddie Munson">
         <h2 class="text-secondary"><strong>Baking</strong></h2>
-            <img src="Dobie.jpeg" alt="Dobie">
-            <img src="Assam.jpeg" alt="Assam">
-            <img src="Kahlua.jpeg" alt="Kahlua">
+            <img src="{{ url_for('static', filename='assets/Dobie.jpeg') }}" alt="Dobie">
+            <img src="{{ url_for('static', filename='assets/Assam.jpeg') }}" alt="Assam">
+            <img src="{{ url_for('static', filename='assets/Kahlua.jpeg') }}" alt="Kahlua">
         <h2 class="text-secondary"><strong>Travel</strong></h2>
-            <img src="gingersnap.jpeg" alt="Gingersnap Cookies">
-            <img src="mcrn.jpeg" alt="Macarons">
-            <img src="pie.jpeg" alt="Pumpkin Pie">
+            <img src="{{ url_for('static', filename='assets/gingersnap.jpeg') }}" alt="Gingersnap Cookies">
+            <img src="{{ url_for('static', filename='assets/mcrn.jpeg') }}" alt="Macarons">
+            <img src="{{ url_for('static', filename='assets/pie.jpeg') }}" alt="Pumpkin Pie">
     </div>
 {% endblock %}
 
